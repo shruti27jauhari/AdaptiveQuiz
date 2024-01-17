@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Performance Dashboard</title>
+    <link rel="stylesheet" href="./css/dashboard_style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Student Performance Dashboard</h1>
+    </header>
+
+    <div class="dashboard">
+
+        <h2>Student Information</h2>
+        <table>
+            <tr>
+                <th>Student Name</th>
+                <th>Student ID</th>
+                <th>Total Score</th>
+                <th>Rank</th>
+            </tr>
+            <tr>
+                <td>John Doe</td>
+                <td>123456</td>
+                <td id='totalScore'>00</td>
+                <td>1</td>
+            </tr>
+            <!-- Add more rows as needed -->
+        </table>
+
+        <h2>Question-wise Performance</h2>
+        <table>
+            <tr>
+                <th></th>
+                <th>Easy</th>
+                <th>Medium</th>
+                <th>Hard</th>
+            </tr>
+            <tr>
+                <td>Questions Solved</td>
+                <td id="easyScore">00</td>
+                <td id="mediumScore">00</td>
+                <td id="hardScore">00</td>
+            </tr>
+            <!-- Add more rows as needed -->
+        </table>
+
+        <h2>Topic-wise Performance</h2>
+        <div class="strong-weak-topic">
+            <div>
+                <h3>Strong Topic</h3>
+                <p>Mathematics</p>
+                <!-- Add more strong topics as needed -->
+            </div>
+            <div>
+                <h3>Weak Topic</h3>
+                <p>History</p>
+                <!-- Add more weak topics as needed -->
+            </div>
+        </div>
+
+        <!-- Placeholder for Pie Chart -->
+        <div class="chart-container">
+            <h2>Pie Chart: Correct vs Wrong Questions</h2>
+            <canvas id="pieChart"></canvas>
+        </div>
+
+        <!-- Placeholder for Graph -->
+        <div class="graph-container">
+            <h2>Overall Performance Graph</h2>
+            <canvas id="lineChart"></canvas>
+        </div>
+
+    </div>
+
+    <!-- Include Chart.js library -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- Include your custom JavaScript file -->
+    <script type="module" src="./js/dashboard_script.js"></script>
+
+</body>
+
+</html>

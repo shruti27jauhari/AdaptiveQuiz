@@ -1,0 +1,336 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d8c07a;
+}
+
+header {
+
+    display: flex;
+    align-items: center;
+}
+
+.foot {
+    padding-top: 80px;
+}
+
+.foot button {
+    width: 200px;
+    height: 40px;
+}
+
+#text {
+    background-color: rgb(173, 123, 123);
+    margin-left: 400px;
+    margin-top: 5px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    border: groove white 2px;
+    box-shadow: #fff;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#img1 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+section {
+    height: 700px;
+    background-color: white;
+
+}
+
+.navbar {
+    background-color: #b6a861;
+    padding: 20px;
+    display: flex;
+    height: 50px;
+
+    /* justify-content: flex-end; */
+    /* Align the button to the right */
+    display: flex;
+    justify-content: space-evenly;
+    /* Vertically center the button */
+}
+
+
+.navbar p {
+    color: rgb(247, 241, 241);
+    margin-left: 100px;
+    margin-right: 50px;
+    padding-left: 30px;
+    padding-right: 100px;
+
+}
+
+
+.submit-button {
+
+    background-color: rgb(110, 83, 42);
+    color: #f4eeee;
+    border: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.3s;
+    margin-left: 30px;
+}
+
+
+.clear:hover {
+    background-color: #c9872b;
+    transform: scale(1.05);
+    /* Apply a 3D effect on hold */
+}
+
+.clear {
+
+    background-color: rgb(249, 253, 252);
+    color: rgb(8, 8, 9);
+    border: solid rgb(11, 145, 240) 1px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.3s;
+}
+
+.sk:hover {
+    background-color: #ff6600;
+    transform: scale(1.05);
+    /* Apply a 3D effect on hold */
+}
+
+.sk {
+    background-color: rgb(229, 56, 56);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.3s;
+}
+
+.nx:hover {
+    background-color: #ff6600;
+    transform: scale(1.05);
+    /* Apply a 3D effect on hold */
+}
+
+.nx {
+
+    background-color: rgb(36, 103, 47);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.3s;
+}
+
+
+
+
+.submit-button:hover {
+    background-color: #ff6600;
+    transform: scale(1.05);
+    /* Apply a 3D effect on hold */
+}
+
+.bar-container {
+    display: flex;
+    height: 0px;
+}
+
+.bar {
+    height: 950px;
+    /* Adjust the height as needed */
+
+}
+
+.bar-75 {
+    width: 75%;
+    /* 75% width for the first bar */
+    background-color: #fefefd;
+    margin-top: 200px;
+    /* Background color for the first bar */
+    height: 400px;
+}
+
+.bar-25 {
+    padding: 2px;
+    margin: 2px;
+    border: 2px solid gray;
+    width: 25%;
+    /* 25% width for the second bar */
+    background-color: #ffffff;
+    /* Background color for the second bar */
+    height: 600px;
+}
+
+.display_level {
+    width: 220px;
+    border: 3px solid rgb(58, 60, 58);
+    padding: 50px;
+    height: 60px;
+}
+
+#pdt {
+    padding-top: 250px;
+    margin-left: 5px;
+}
+
+.question-container {
+    width: 95%;
+    height: 70%;
+    /* Adjust the width as needed */
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin-left: 30px;
+}
+
+.question {
+    font-weight: bold;
+    margin-bottom: 10px;
+    border: 1px solid #333;
+    padding: 20px
+}
+
+
+.options {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    /* Allow options to wrap to the next row */
+    justify-content: space-between;
+}
+
+.option {
+    width: 48%;
+    /* Adjust the width as needed */
+    padding: 20px;
+    height: fit-content;
+    border: 1px solid #13144e;
+    box-sizing: border-box;
+    /* Include padding and border in width calculation */
+    margin-bottom: 10px;
+    /* Add some space between options */
+}
+
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    /* Allow buttons to wrap to the next row */
+    justify-content: flex-start;
+    /* Start buttons from the left */
+}
+
+.circular-button {
+    width: 29px;
+    height: 29px;
+    background-color: #f6f7f9;
+    color: blue;
+    border: blue 1px solid;
+    border-radius: 50%;
+    margin: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}
+
+.circular-button:hover {
+    background-color: #ff6600;
+    transform: scale(1.05);
+    /* Apply a 3D effect on hold */
+}
+
+
+/* Add a margin to the last button in each row to separate rows */
+.circular-button:nth-child(8n) {
+    margin-right: 0;
+}
+
+.score-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    border: 5px solid #2980b9;
+    border-radius: 10px;
+    perspective: 1000px;
+    /* Adjust perspective for 3D effect */
+}
+
+.score {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #3498db;
+    border: 5px solid #2980b9;
+    border-radius: 10px;
+    transform: rotateY(0deg);
+    /* Initial rotation for 3D effect */
+    transition: transform 0.3s ease-in-out;
+}
+
+.score-container:hover .score {
+    transform: rotateY(180deg);
+    /* Rotate on hover for 3D flip effect */
+}
+
+/* Style for the button container */
+.button-container {
+    display: flex;
+    flex-direction: row;
+    /* Arrange buttons vertically */
+    justify-content: left;
+    /* Align buttons to the bottom */
+    align-items: center;
+    /* Center buttons horizontally */
+    /* Ensure the buttons fill the container's height */
+}
+
+/* Add spacing between buttons */
+.circular-button+.circular-button {
+    margin-top: 10px;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.EAQ {
+    border: 1px outset gray;
+    padding: 3px;
+    margin: 3px;
+}
+
+.AQ {
+    border: 1px outset gray;
+    padding: 3px;
+    margin: 3px;
+}
+
+.QFR {
+    border: 1px outset gray;
+    padding: 3px;
+    margin: 3px;
+}
+
+.EQ {
+    border: 1px outset gray;
+    padding: 3px;
+    margin: 3px;
+}

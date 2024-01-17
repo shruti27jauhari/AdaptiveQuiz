@@ -1,0 +1,77 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #b6a861;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.dashboard {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(207, 119, 119, 0.1);
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid #070707;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #b6a861;
+    color: #0e0d0d;
+}
+
+.topic-table {
+    margin-top: 20px;
+}
+
+.strong-weak-topic {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.chart-container {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.graph-container {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f8f5f5;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+
+}
+
+/* Style for Pie Chart and Graph */
+canvas {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    max-width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}

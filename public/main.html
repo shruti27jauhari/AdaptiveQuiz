@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCQ Quiz</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+
+    <section id="all">
+        <nav class="navbar">
+            <p id="p">
+            <h2>SELF ASSESSMENT EXAM</h2>
+            </p>
+            <h2 id="timer"></h2>
+            <button id="submit" class="submit-button">
+                <H3>Submit</H3>
+            </button>
+        </nav>
+
+        <div class="bar-container">
+            <div class="bar bar-75">
+                <!-- <div class="score-container">
+                <div class="score" id="score">0</div>
+                 </div> -->
+                <div class="question-container">
+                    <div class="question" id="question"></div>
+                    <ul class="options">
+                        <li class="option a" id="a">A. Paris </li>
+                        <li class="option b" id="b">B. London</li>
+                        <li class="option c" id="c">C. Berlin</li>
+                        <li class="option d" id="d">D. Rome</li>
+                    </ul>
+                </div>
+                <div class="foot">
+                    <button class="clear" id="clear">clear</button>
+                    <button class="sk" id="skip_answer_later">skip</button>
+                    <button class="nx" id="save_next">save and next</button>
+                </div>
+            </div>
+            <div class="bar bar-25">
+                <div class="EQ">
+                    <details>
+                        <summary>1] ENGINEERING QUESTIONS : </summary>
+                        <p>
+                        <div class="button-container" id="status-button">
+                            <div class="detail">
+                                <!-- Add more buttons as needed -->
+                            </div>
+                        </div>
+                        </p>
+                    </details>
+                </div>
+                <div class="EAQ">
+                    <details>
+                        <summary>Emerging Area Question</summary>
+                        <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions,
+                            international pavilions, award-winning fireworks and seasonal special events.</p>
+                    </details>
+                </div>
+                <div class="AQ">
+                    <details>
+                        <summary>Aptitude Question</summary>
+                        <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions,
+                            international pavilions, award-winning fireworks and seasonal special events.</p>
+                    </details>
+                </div>
+                <div class="QFR">
+                    <details>
+                        <summary>Question For Review</summary>
+                        <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions,
+                            international pavilions, award-winning fireworks and seasonal special events.</p>
+                    </details>
+                </div>
+                <h3 id="pdt">levels</h3>
+                <div class="display_level">
+                    <p id="level"></p>
+                    <p id="sublevel"></p>
+                    <p id="correct"></p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <script type="module" src="./js/main_script.js"></script>
+</body>
+
+</html>

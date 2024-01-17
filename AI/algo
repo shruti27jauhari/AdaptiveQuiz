@@ -1,0 +1,33 @@
+function predict_next_mcq(student_level,class){
+    
+}
+a = trigger_For_Level_Up_For_Question
+b = trigger_For_Level_Down_For_Question
+c = trigger_For_Level_Up_For_Student
+d = trigger_For_Level_Down_For_Student
+function analyse_present_mcq(){
+    if(missQuestion > b){
+        difficultyLevel--
+        studentLevel--
+        missQuestion=0
+    }
+    if(correctQuestion > a){
+        difficultyLevel++
+        studentLevel++
+        correctQuestion=0
+    }
+    if(ans==correct){
+        correctQuestion++
+        
+    }
+    else if(ans==wrong){
+        missQuestion++        
+    }
+    else if(ans==NULL){
+        missQuestion++
+    }
+}
+
+funtion calculate_difficulty_level(){
+
+}

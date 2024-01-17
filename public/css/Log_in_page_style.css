@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-color: #b6a861;
+
+}
+
+.login-container {
+    display: flex;
+    flex-direction: row;
+    background: #ffffff;
+    padding: 5px;
+    margin-right: 5vh;
+    margin-left: 2vh;
+    height: 700px;
+    border-radius: 10px;
+    border-bottom-left-radius: 100px;
+    border-top-left-radius: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.general-info {
+    flex: 1;
+    padding: 30px;
+    color: #000;
+    /* Set text color to black */
+
+}
+
+.general-info p {
+
+    margin-left: 5px;
+
+
+}
+
+.new h1 {
+    color: rgb(16, 15, 15);
+    padding-left: 30px;
+
+}
+
+.new p {
+    color: rgb(6, 6, 6);
+    padding-left: 50px;
+}
+
+.general-info h3 {
+
+    align-items: center;
+    margin-top: 30vh;
+    margin-right: 2vh;
+
+}
+
+.welcome h1 {
+    margin-top: 40vh;
+
+
+}
+
+.login-form {
+    flex: 1;
+    padding: 20px;
+    margin-top: 25vh;
+    margin-right: 10vh;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.btn {
+    background-color: #39393a;
+    color: rgb(253, 248, 248);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 50%;
+    align-items: center;
+}
+
+.btn:hover {
+    background-color: #f09f9f;
+}
+
+.pr {
+    text-align: left;
+}

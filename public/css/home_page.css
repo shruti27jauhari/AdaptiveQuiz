@@ -1,0 +1,124 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: rgb(215, 215, 131);
+}
+
+header {
+    background-color: #b6a861;
+    color: #0e0e0e;
+    padding: 20px;
+}
+
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: #0b0b0b;
+}
+
+.body-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid #edf0f1;
+    border-radius: 8px;
+    padding: 20px;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 70px;
+    padding-bottom: 50px;
+    background-color: white;
+}
+
+h1 {
+    margin-top: 30px;
+    color: #333;
+    border-bottom: 2px solid #333;
+    /* Add border to the welcome message */
+    padding-bottom: 10px;
+    /* Add padding for spacing */
+    margin-bottom: 20px;
+}
+
+.action-boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.action-box {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #6f684d;
+    border-radius: 10px;
+    margin: 0 10px;
+    background-color: #b6a861;
+    transition: transform 0.3s ease-in-out;
+}
+
+.action-box:hover {
+    transform: scale(1.05);
+    /* Add scale effect on hover */
+}
+
+.action-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #333;
+    color: #f6f3f3;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.news-section {
+    margin-top: 20px;
+    margin-left: 30px;
+    align-self: flex-start;
+    /* Align to the rightmost corner */
+}
+
+footer {
+    background-color: #b6a861;
+    padding: 8px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.policies,
+.social-media {
+    display: flex;
+    align-items: center;
+}
+
+.policies a {
+    color: #0c0c0c;
+    margin-right: 20px;
+}
+
+.social-media a {
+    margin-right: 10px;
+}
+
+.social-media img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}

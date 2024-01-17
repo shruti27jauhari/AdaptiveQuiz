@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Configuration</title>
+    <link rel="stylesheet" href="./css/exam_tab.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Test Configuration</h1>
+        </header>
+
+        <form action="/guidlines" method="post">
+            <fieldset>
+                <legend>Select Test Topic:</legend>
+
+                <!-- Radio buttons for each topic -->
+                <div class="topic-radio">
+                    <input type="radio" id="gravitation" name="topic" value="Gravitation">
+                    <label for="gravitation">Gravitation</label>
+                </div>
+                <div class="topic-radio">
+                    <input type="radio" id="periodic_classification" name="topic" value="Periodic_Classification">
+                    <label for="periodic_classification">Periodic Classification of Element</label>
+                </div>
+
+                <div class="topic-radio">
+                    <input type="radio" id="chemical_reactions" name="topic" value="Chemical_reactions">
+                    <label for="chemical_reactions">Chemical Reactions and Equations</label>
+                </div>
+
+                <div class="topic-radio">
+                    <input type="radio" id="electric_current" name="topic" value="Effects_of_electric_current">
+                    <label for="electric_current">Effects of Electric Current</label>
+                </div>
+
+                <div class="topic-radio">
+                    <input type="radio" id="heat" name="topic" value="Heat">
+                    <label for="heat">Heat</label>
+                </div>
+
+                <div class="topic-radio">
+                    <input type="radio" id="light_refraction" name="topic" value="Refraction_of_light">
+                    <label for="light_refraction">Refraction of Light</label>
+                </div>
+
+                <div class="topic-radio">
+                    <input type="radio" id="lenses" name="topic" value="Lenses">
+                    <label for="lenses">Lenses</label>
+                </div>
+
+                <div class="topic-radio">
+                    <input type="radio" id="metallurgy" name="topic" value="Metallugy">
+                    <label for="metallurgy">Metallurgy</label>
+                </div>
+
+                <div class="topic-radio">
+                    <input type="radio" id="carbon_compounds" name="topic" value="Carbon_compounds">
+                    <label for="carbon_compounds">Carbon Compounds</label>
+                </div>
+
+                <div class="topic-radio">
+                    <input type="radio" id="space_missions" name="topic" value="Space_Missions">
+                    <label for="space_missions">Space Missions</label>
+                </div>
+
+                <div class="topic-radio">
+                    <input type="radio" id="heredity_evolution" name="topic" value="Heredity_and_Evolution">
+                    <label for="heredity_evolution">Heredity and Evolution</label>
+                </div>
+
+                <div class="topic-radio">
+                    <input type="radio" id="life_processes_1" name="topic" value="Life_Processes_Part_1">
+                    <label for="life_processes_1">Life Processes in Living Organisms Part - 1</label>
+                </div>
+
+                <div class="topic-radio">
+                    <input type="radio" id="life_processes_2" name="topic" value="Life_Processes_Part_2">
+                    <label for="life_processes_2">Life Processes in Living Organisms Part - 2</label>
+                </div>
+
+                <div class="topic-radio">
+                    <input type="radio" id="environmental_management" name="topic" value="Environmental_management">
+                    <label for="environmental_management">Environmental Management</label>
+                </div>
+
+                <div class="topic-radio">
+                    <input type="radio" id="green_energy" name="topic" value="Towards_Green_Energy">
+                    <label for="green_energy">Towards Green Energy</label>
+                </div>
+
+                <div class="topic-radio">
+                    <input type="radio" id="animal_classification" name="topic" value="Animal_Classification">
+                    <label for="animal_classification">Animal Classification</label>
+                </div>
+
+                <div class="topic-radio">
+                    <input type="radio" id="microbiology" name="topic" value="Introduction_to_Microbiology">
+                    <label for="microbiology">Introduction to Microbiology</label>
+                </div>
+
+                <div class="topic-radio">
+                    <input type="radio" id="cell_biotechnology" name="topic" value="Cell_Biology_and_Biotechnology">
+                    <label for="cell_biotechnology">Cell Biology and Biotechnology</label>
+                </div>
+
+                <div class="topic-radio">
+                    <input type="radio" id="social_health" name="topic" value="Social_health">
+                    <label for="social_health">Social Health</label>
+                </div>
+
+                <div class="topic-radio">
+                    <input type="radio" id="disaster_management" name="topic" value="Disaster_Management">
+                    <label for="disaster_management">Disaster Management</label>
+                </div>
+                <div class="topic-checkbox">
+                    <input type="checkbox" id="select_all" name="select_all" onchange="selectAllTopics()">
+                    <label for="select_all">Select All Topics</label>
+                </div>
+            </fieldset>
+
+            <div id="topicDetails">
+                <!-- Topic details will be displayed dynamically here -->
+            </div>
+
+            <div id="testOptions">
+                <!-- Test Options for All Topics will be displayed dynamically here -->
+            </div>
+
+            <input class="button" type="submit" value="Start Test">
+        </form>
+    </div>
+
+    <script src="./js/exam_tab.js"></script>
+</body>
+
+</html>
