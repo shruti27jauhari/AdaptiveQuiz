@@ -9,7 +9,7 @@ const __dirname = path.resolve();
 
 app.use(express.static(path.join(__dirname, 'public')));
 app.get("/", (req, res) => {
-    res.sendFile(__dirname + "/public/Index.html");
+    res.sendFile(__dirname + "/public/index.html");
 });
 
 // app.post('/Exam', (req, res) => {
